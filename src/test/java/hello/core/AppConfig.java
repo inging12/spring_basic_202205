@@ -37,7 +37,7 @@ public class AppConfig {
 
     @Bean
     public MemberRepository memberRepository(){
-        // 2번? 3번?
+        // 2번? 3번? -> 1번이지롱
         System.out.println("call AppConfig.memberRepository");
         return new MemoryMemberRepository();
     }
